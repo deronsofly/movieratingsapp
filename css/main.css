@@ -1,0 +1,20 @@
+body{
+	background-color: #2c3750;
+	color: white;
+}
+.box{
+	border: lightblue 2px dotted;
+	height: 120px;
+	width: 320px;
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+}
+.box h3{
+	font-size: 30px;
+}
+
+}
+#ratebtn{
+	text-align: center;
+}

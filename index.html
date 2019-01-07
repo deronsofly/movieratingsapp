@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rate-A-Film</title>
+	<!-- bootstrap stylesheet link -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- font awesome link -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<!-- animate stylesheet link -->
+	<link rel="stylesheet" href="css/animate.css"> 
+
+  <!-- css stylesheet link -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+  <body>
+  	<div class="row">
+  		<div class="mx-auto text-center">
+  			<h1 class="">Rate-A-Film... any film</h1>
+  			<h3>Instructions: Type the name of a film and select a star rating for the movie.</h3>
+  		</div>
+  	</div>
+  	<div class="row">
+  		<div class="mx-auto pb-4">
+  			<input class="col-6 px-5 py-2" title="something that exceesed the width of the box" type="text" id="titleinput">
+  			<select class="col-5" id="rating">
+  				<option value="img/1starrating.png" name="1 Star">1star</option>
+  				<option value="img/1.5starrating.png" name="1.5 Stars">1.5stars</option>
+  				<option value="img/2starrating.png" name="2 Stars">2stars</option>
+  				<option value="img/2.5starrating.png" name="2.5 Stars">2.5stars</option>
+  				<option value="img/3starrating.png" name="3 Stars">3stars</option>
+  				<option value="img/3.5starrating.png" name="3.5 Stars">3.5star</option>
+  				<option value="img/4starrating.png" name="4 Stars">4stars</option>
+  				<option value="img/4.5starrating.png" name="4.5 Stars">4.5stars</option>
+  				<option value="img/5starrating.png" name="5 Stars">5stars</option>
+  			</select>
+  		</div>
+  	</div>
+  	<div class="row">
+		<button class="col-1 mx-auto mb-3 bg-warning" type="button" id="ratebtn">RATE</button>  		
+  	</div>
+  	
+
+  	
+  	<div class="row" id="example1">
+  		<section class="mx-auto">
+  			<div class="box mx-2 my-2 px-3 moviediv" id="titlediv">
+  				<h3 class="pt-5" id="ex1-1">Titanic</h3>
+  			</div>
+  			<div class="box mx-2 my-2 px-5 pt-2 ratediv" id="ratediv">
+  				<h3 class="pt-3" id="ex1-2">4.5 stars</h3>
+  				<img class="img-fluid" id="ex1-3" src="img/4.5starrating.png">
+  			</div>
+  		</section>
+  	</div>
+
+  	<div class="row" id="example2">
+  		<section class="mx-auto">
+  			<div class="box mx-2 my-2 px-3 moviediv" id="titlediv">
+  				<h3 class="pt-5" id="ex1-1">Iron Man 3</h3>
+  			</div>
+  			<div class="box mx-2 my-2 px-3 ratediv" id="ratediv">
+  				<h3 class="pt-3" id="ex1-2">3 stars</h3>
+  				<img class="img-fluid" id="ex1-3" src="img/3starrating.png">
+  			</div>
+  		</section>
+  	</div>
+  	
+	  	
+
+
+
+
+
+
+
+
+
+<!-- SCRIPTS -->
+	<!-- J Query -->
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+	<!-- POPPER -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!-- JAVASCRIPT SCRIPT-->
+	<script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
+
